@@ -1,0 +1,21 @@
+@import '../config';
+
+.indox-page {
+	color: $base-color-dack;
+	font-family: $font-stack;
+	.users-login{
+		padding: 5px 15px;
+		border-left: 1px  solid $base-color-dack;
+		width: 200px;
+		cursor: pointer;
+		&:hover{
+			background: rgba(28, 202, 180, 0.48);
+		}
+		.login{
+			font-size: 15px;
+		}
+		.sid{
+			font-size: 10px;
+		}
+	}
+}

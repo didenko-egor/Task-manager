@@ -1,0 +1,103 @@
+[
+  {
+    "login": "sa",
+    "pass": "sa",
+    "sid": "admin-session",
+    "admin": true,
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "dev",
+    "pass": "dev",
+    "sid": "existing-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "soglasie",
+    "pass": "soglasie",
+    "sid": "soglasie-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "raiff",
+    "pass": "raiff",
+    "sid": "raiffeisen-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "alpha",
+    "pass": "alpha",
+    "sid": "alpha-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "hdi",
+    "pass": "hdi",
+    "sid": "hdi-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "sogaz",
+    "pass": "sogaz",
+    "sid": "sogaz-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "test",
+    "pass": "test",
+    "sid": "expired-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "empty",
+    "pass": "empty",
+    "sid": "empty-session",
+    "routes": [
+      "/",
+      "/auth/login"
+    ]
+  },
+  {
+    "login": "passchange",
+    "pass": "passchange",
+    "sid": "password change needed",
+    "routes": [
+      "/",
+      "/auth/login"
+    ],
+    "tmp_password": true
+  },
+  {
+    "login": "tmp",
+    "pass": "tmp",
+    "sid": "temporary_sid",
+    "routes": [
+      "/test_url"
+    ]
+  }
+
+] 

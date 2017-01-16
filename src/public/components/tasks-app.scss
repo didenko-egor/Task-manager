@@ -1,0 +1,35 @@
+@import '../config';
+
+.tasks-grid ,h3 {
+  color: $base-color-dack;
+  font-family: $font-stack;
+  margin: 15px 25px;
+  .tasks{
+    margin: 15px 0;
+    border: 1px solid $base-color;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px $base-color;
+    &:hover {
+      box-shadow: 2px 2px 10px $base-color;
+    }
+    .title {
+      font-size: 17px;
+    }
+
+    .description {
+      font-size: 14px;
+      padding-top: 10px;
+    }
+  }
+}
+
+
+
+.ReactModalPortal{
+  color: red;
+    div {
+      color: red;
+    }
+  }
+

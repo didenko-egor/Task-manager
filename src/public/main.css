@@ -1,0 +1,223 @@
+#root .page-user {
+  background-color: #4d4d4d; }
+#root .users {
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+  border-radius: 5px;
+  width: 25%; }
+  #root .users p {
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0;
+    color: #4d4d4d;
+    padding: 0 15px; }
+  #root .users .users-list {
+    color: #4d4d4d;
+    font-family: Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    max-width: 200px;
+    box-shadow: 2px 1px 5px #d4d4d4;
+    font-size: 15px; }
+    #root .users .users-list:hover {
+      box-shadow: 0px 1px 5px #1CCAB4;
+      cursor: pointer; }
+    #root .users .users-list .users-description {
+      font-size: 10px;
+      padding-top: 5px; }
+  #root .users .search-line {
+    margin: 15px 5px;
+    color: #212121; }
+    #root .users .search-line input[type="text" i] {
+      height: 25px;
+      max-width: 150px;
+      box-shadow: 2px 1px 5px #d4d4d4;
+      border: 1px solid #d4d4d4;
+      border-radius: 5px;
+      padding: 0 15px; }
+#root .indox-page {
+  color: #4d4d4d;
+  font-family: Helvetica, sans-serif; }
+  #root .indox-page .users-login {
+    padding: 5px 15px;
+    border-left: 1px solid #4d4d4d;
+    width: 200px;
+    cursor: pointer; }
+    #root .indox-page .users-login:hover {
+      background: rgba(28, 202, 180, 0.48); }
+    #root .indox-page .users-login .login {
+      font-size: 15px; }
+    #root .indox-page .users-login .sid {
+      font-size: 10px; }
+#root .about-page {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px; }
+  #root .about-page p, #root .about-page h1 {
+    font-family: Helvetica, sans-serif;
+    color: #4d4d4d; }
+#root .index-page {
+  display: inline; }
+  #root .index-page .logo {
+    width: 25px;
+    height: 25px;
+    background: #369ADA;
+    margin: 0 15px;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    position: relative;
+    color: #3A3A3A;
+    font-weight: bold;
+    box-shadow: inset 4px 3px 9px #FFFFFF, 2px 1px 0px #226B98, 2px 1px 0px #226B98;
+    border: 0.1px solid #369ADA; }
+  #root .index-page .navigation {
+    display: inline-block; }
+    #root .index-page .navigation .menu-item a {
+      font-family: Helvetica, sans-serif;
+      font-size: 15px;
+      color: #4d4d4d;
+      text-decoration: none;
+      position: relative;
+      bottom: 8px;
+      padding: 0 15px;
+      transition: all 0.2s; }
+      #root .index-page .navigation .menu-item a:hover {
+        color: #369ADA; }
+      #root .index-page .navigation .menu-item a:active {
+        color: #125077; }
+#root .table-page {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  margin-top: 30px;
+  color: #4d4d4d; }
+  #root .table-page .title {
+    margin-bottom: 15px; }
+  #root .table-page th {
+    padding-right: 18px; }
+  #root .table-page .table-week {
+    display: inline-block;
+    border-bottom: 1px solid #d4d4d4; }
+  #root .table-page .tbale-month {
+    display: inline-block;
+    margin-right: 25px;
+    border-bottom: 1px solid #d4d4d4; }
+#root .tasks-grid, #root h3 {
+  color: #4d4d4d;
+  font-family: Helvetica, sans-serif;
+  margin: 15px 25px; }
+  #root .tasks-grid .tasks, #root h3 .tasks {
+    margin: 15px 0;
+    border: 1px solid #d4d4d4;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0px #d4d4d4; }
+    #root .tasks-grid .tasks:hover, #root h3 .tasks:hover {
+      box-shadow: 2px 2px 10px #d4d4d4; }
+    #root .tasks-grid .tasks .title, #root h3 .tasks .title {
+      font-size: 17px; }
+    #root .tasks-grid .tasks .description, #root h3 .tasks .description {
+      font-size: 14px;
+      padding-top: 10px; }
+#root .ReactModalPortal {
+  color: red; }
+  #root .ReactModalPortal div {
+    color: red; }
+#root .content {
+  font-size: 15px;
+  color: #4d4d4d;
+  font-family: Helvetica, sans-serif; }
+#root .edit {
+  color: #4d4d4d;
+  font-family: Helvetica, sans-serif;
+  padding: 15px 0;
+  text-align: right; }
+  #root .edit .description-task, #root .edit .title-task {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    border: 1px solid #d4d4d4; }
+    #root .edit .description-task:hover, #root .edit .title-task:hover {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); }
+    #root .edit .description-task textarea, #root .edit .title-task textarea {
+      width: 100%;
+      resize: none;
+      margin: 5px;
+      font-size: 14px;
+      border: none;
+      font-weight: 300; }
+  #root .edit .cancel-button, #root .edit .save-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    background-color: #44c767;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 8px 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627; }
+    #root .edit .cancel-button:hover, #root .edit .save-button:hover {
+      background-color: #5cbf2a; }
+    #root .edit .cancel-button:active, #root .edit .save-button:active {
+      position: relative;
+      top: 1px; }
+    #root .edit .cancel-button:focus, #root .edit .save-button:focus {
+      outline: 0; }
+
+.task-edit .content {
+  font-size: 15px;
+  color: #4d4d4d;
+  font-family: Helvetica, sans-serif; }
+.task-edit .edit {
+  color: #4d4d4d;
+  font-family: Helvetica, sans-serif;
+  padding: 15px 0;
+  text-align: right; }
+  .task-edit .edit .description-task, .task-edit .edit .title-task {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    border: 1px solid #d4d4d4; }
+    .task-edit .edit .description-task:hover, .task-edit .edit .title-task:hover {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); }
+    .task-edit .edit .description-task textarea, .task-edit .edit .title-task textarea {
+      width: 100%;
+      resize: none;
+      margin: 5px;
+      font-size: 14px;
+      border: none;
+      font-weight: 300; }
+  .task-edit .edit .cancel-button, .task-edit .edit .save-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    background-color: #44c767;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 8px 8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627; }
+    .task-edit .edit .cancel-button:hover, .task-edit .edit .save-button:hover {
+      background-color: #5cbf2a; }
+    .task-edit .edit .cancel-button:active, .task-edit .edit .save-button:active {
+      position: relative;
+      top: 1px; }
+    .task-edit .edit .cancel-button:focus, .task-edit .edit .save-button:focus {
+      outline: 0; }
+
+/*# sourceMappingURL=main.css.map */

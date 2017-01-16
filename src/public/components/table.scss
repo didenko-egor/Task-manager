@@ -1,0 +1,26 @@
+@import '../config';
+
+.table-page {
+	font-family: $font-stack;
+	font-size: 13px;
+	font-weight: 100;
+	margin-top: 30px;
+	color: $base-color-dack;
+	.title{
+			margin-bottom: 15px;
+		}
+	th{
+			padding-right: 18px 
+		}
+	.table-week {
+		display: inline-block;
+		border-bottom: 1px solid $base-color;
+		
+	}
+	.tbale-month {
+		display: inline-block;
+		margin-right: 25px;
+		border-bottom: 1px solid $base-color;
+		
+	}
+}
