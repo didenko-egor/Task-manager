@@ -22,3 +22,6 @@ HOSTNAME=test.host.su npm start #запуск сервера
 * билд стилей - `sass --watch public/css/themes/_theme-[имя_темы].scss:public/css/[имя_темы].css`
 * билд на продакшн - `npm run build`
 * запуск для продакшн- `NODE_ENV=production npm start`
+
+
+## [Файл] (https://github.com/didenko-egor/Task-manager/blob/master/src/public/main.css) описание
